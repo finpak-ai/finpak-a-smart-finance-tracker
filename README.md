@@ -194,6 +194,18 @@ This script reads `data.csv`, runs preprocessing/feature engineering, trains mul
 This project is intended for learning/demo purposes. Do not deploy as-is for production without adding proper secret management, session handling, CSRF protection.
 
 ---
+## Project status
+
+The project is not completed yet and some frontend/UI fixes are still needed.
+
+---
+
+## Authors
+
+- **Muhammad Faheem** — AI/ML (model training, preprocessing, saved models, pipeline)
+- **Muhammad Abdullah** — Frontend/UI (templates, styling, web pages)
+
+- ---
 
 ## License
 
