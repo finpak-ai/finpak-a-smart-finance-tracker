@@ -125,9 +125,20 @@ At startup, the app attempts to load:
 - `Health_Decision_Tree.pkl`
 - `Suggestions_Multi_Tree.pkl`
 
-### Important note about removed model
+### Important note about removed Savings model
 
-`saved_models/Savings_Random_Forest.pkl` has been removed from this GitHub repo due to its large file size. The app will still run, but **savings prediction may be unavailable** unless you regenerate the model locally.
+`saved_models/Savings_Random_Forest.pkl` has been removed from this GitHub repo due to its large file size.
+
+If you want **Savings prediction** to work:
+- Pick **any one** Savings model file (for example `Savings_Linear_Regression.pkl` or `Savings_Decision_Tree.pkl`) from the `saved_models/` folder.
+- Check the **notebook results/performance** (R², MAE, etc.) and choose the one with the best performance.
+- Then **paste/rename** it to match what the app expects:
+
+```
+Smart Finance Tracker/saved_models/Savings_Random_Forest.pkl
+```
+
+> In short: choose the best-performing Savings model from your trained models and place it in `saved_models/` using the filename `Savings_Random_Forest.pkl` so the app can load it.
 
 ---
 
@@ -146,10 +157,4 @@ This script reads `data.csv`, runs preprocessing/feature engineering, trains mul
 
 ## Security note
 
-This project is intended for learning/demo purposes. Do not deploy as-is for production without adding proper secret management, session handling, CSRF protection, and hardened authentication settings.
-
----
-
-## License
-
-This project is licensed under the terms of the **MIT License**. See `LICENSE`.
+This project is intended for learning/demo purposes. Do not deploy as-is for production without adding proper secret management, session handling, CSRF protection
