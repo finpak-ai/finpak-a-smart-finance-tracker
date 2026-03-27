@@ -6,6 +6,40 @@ A lightweight personal finance tracker built with **FastAPI**, **SQLite**, and *
 
 ---
 
+## Screenshots
+
+Below are some screenshots of the web app (from the `Webapp Screenshots/` folder):
+
+### Login
+
+![Login page](Webapp%20Screenshots/login%20page.png)
+
+### Dashboard
+
+![Dashboard 1](Webapp%20Screenshots/Dashboard%201.png)
+
+![Dashboard 2](Webapp%20Screenshots/Dashboard%202.png)
+
+### Input form
+
+![Input fields](Webapp%20Screenshots/input%20fields.png)
+
+### Profile
+
+![Profile](Webapp%20Screenshots/Profile.png)
+
+### History
+
+![History](Webapp%20Screenshots/history.png)
+
+### Trends
+
+![Trends 1](Webapp%20Screenshots/Trends%201.png)
+
+![Trends 2](Webapp%20Screenshots/Trends%202.png)
+
+---
+
 ## Features
 
 - **User accounts**: register/login/logout
@@ -157,4 +191,10 @@ This script reads `data.csv`, runs preprocessing/feature engineering, trains mul
 
 ## Security note
 
-This project is intended for learning/demo purposes. Do not deploy as-is for production without adding proper secret management, session handling, CSRF protection
+This project is intended for learning/demo purposes. Do not deploy as-is for production without adding proper secret management, session handling, CSRF protection.
+
+---
+
+## License
+
+This project is licensed under the terms of the **MIT License**. See `LICENSE`.
